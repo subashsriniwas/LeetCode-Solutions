@@ -4,7 +4,7 @@ class Solution {
         if (prices.length == 0) {
             return 0;
         }
-
+        
         int minPrice = Integer.MAX_VALUE;
         int profit = 0;
         int maxProfit = 0;
@@ -18,8 +18,7 @@ class Solution {
                 if (profit > maxProfit) {
                     maxProfit = profit;
                 }
-            }
-            
+            }  
         }
         return maxProfit;
     }
