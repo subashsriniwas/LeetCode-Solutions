@@ -1,5 +1,6 @@
 class Solution {
     public int maxFrequencyElements(int[] nums) {
+        
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for(int val : nums) {
