@@ -1,9 +1,6 @@
 class Solution(object):
     def removeZeroSumSublists(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
+        
         prefix = 0
         seen = {}
         seen[0] = dummy = ListNode(0)
